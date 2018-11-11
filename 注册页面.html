@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/注册页面.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <form class="layout">
+        <!-- login -->
+        <img src="img/注册/milogo.png" alt="">
+        <!-- 标题 -->
+        <h4 class="bigtitle">
+          注册小米账号 
+        </h4>
+        <!-- 注册框 -->
+        <div class="account">
+          <div class="regbox">
+              <!-- 手机号 -->
+              <p class="seltitle">国家/地区</p>
+              <select class="country-list">
+                <option value="1" selected="">中国</option>
+                <option value="2">中国台湾</option>
+                <option value="3">中国香港</option>
+                <option value="4">Brazil</option>
+                <option value="5">India</option>
+                <option value="6">Indonesia</option>
+                <option value="7">Malaysia</option>
+              </select>
+              <p class="tip">
+                成功注册帐号后，国家/地区将不能被修改
+              </p>
+              <p class="seltitle">手机号码</p>
+              <div class="listwrap_inside_panel c_b">
+                <div id="select-cycode" class="listwrap">
+                  <div id="reg-phone-select-cty" class="listtit">
+                    <div class="tits display_box c_b">
+                      <p id="select-cycode-result">+86</p>
+                      <i class="icon_arrow"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="inputbg">
+                  <label for="" class="labelbox err_label">
+                    <input type="tel"name="phone" placeholder="请输入手机号码">
+                  </label>
+                </div>
+                <div class="err_tip" style="display:block">
+                  <div class="dis_box">
+                    <em class="icon_error"></em>
+                    <span>请输入手机号码</span>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <button id="button" class="btn-login">立即注册</button>
+          <div class="privacy_box">
+              <div class="msg">
+                <label for="" class="n_checked now select-privacy">
+                  <i class="icon_select"></i>
+                    注册帐号即表示您同意并愿意遵守小米 
+                    <a href="" class="inspect_link agreement_link">用户协议</a>
+                    和
+                    <a href="" class="inspect_link privacy_link"> 隐私政策 </a>
+                </label>
+              </div>
+          </div>
+        </div>
+     </form>
+     <!--页面底部-->
+    <div id="custom_display_4" class="n-footer">
+      <div class="nf-link-area clearfix">
+          <ul class="lang-select-list">
+              <li><a href="#"class="lang-select-li current">简体</a>|</li>
+              <li><a href="#"class="lang-select-li">繁体</a>|</li>
+              <li><a href="#"class="lang-select-li">English</a>|</li>
+              <li><a href="#"class="lang-select-li">常见问题</a>|</li>
+              <li><a href="#"class="lang-select-li">隐私政策</a></li>
+          </ul>
+      </div>
+      <p class="nf-intro">
+          小米公司版权所有-京ICP备10046444-
+          <a href="#" class="beian-record-link">
+              <span>
+                  <img src="img/登录/ghs.png" alt="">
+              </span>
+              京公网安备11010802020134号
+          </a>
+          -京ICP证110507号
+      </p>
+  </div>
+    </div>
+  </body>
+</html>
